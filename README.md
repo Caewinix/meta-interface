@@ -4,9 +4,17 @@ This is a tiny project that introduces the interface concept to Python.
 
 This documentation describes the use of Python metaclasses to create and manage interfaces in Python. The code defines two primary metaclasses, `Interface` and `Interfaces`, which can be used to enforce interface implementation and manage multiple interfaces respectively.
 
+### Usage
+
+To use this package, it is necessary to import the package firstly. You can import partly, but it will import all here for presentation.
+
 ## Metaclass `Interface`
 
 The `Interface` metaclass is used to define an interface, which is a way to ensure that certain methods are implemented by any class that claims to implement the interface. This is akin to creating a contract for class behavior.
+
+```python
+from interface import *
+```
 
 ### Usage
 
