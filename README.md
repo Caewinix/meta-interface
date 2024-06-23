@@ -13,8 +13,6 @@ The `Interface` metaclass is used to define an interface, which is a way to ensu
 To define an interface using `Interface`, simply declare a class with methods decorated by `@abstractmethod`. Here's a basic example:
 
 ```python
-from abc import abstractmethod
-
 class IC(Interface):
     @abstractmethod
     def my_abstract_method(self, ...):
