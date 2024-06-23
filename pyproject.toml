@@ -1,6 +1,6 @@
 [project]
 name = "meta-interface"
-version = "0.0.1"
+version = "0.0.1.1"
 authors = [
   { name = "Caewinix", email = "Caewinix@yeah.net" },
 ]
